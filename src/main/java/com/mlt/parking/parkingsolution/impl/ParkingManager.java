@@ -34,7 +34,7 @@ public class ParkingManager {
 
 				for (ParkingSlot s : parkingSlots) {
 					// add only if slot can accommodate the vehicle type
-					if (s.getType().compareTo(s.getType()) == 0) {
+					if (s.getType().compareTo(v.getType()) == 0) {
 						sortedSlots.add(s);
 					}
 				}
